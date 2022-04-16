@@ -1,0 +1,37 @@
+button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+.controls {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  
+
+
+
+  
+  .commentsNumber {
+    padding: 0 0 0 6px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+
+
+
+  
+
+  @media all and (min-width: 1024px) {
+      .controls {
+        order: 3;
+        flex: 0 0;
+        margin: 0 0 0 24px;
+      }         
+  }
+
+
